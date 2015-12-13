@@ -1,0 +1,61 @@
+<classpath>
+  <classpathentry kind="src" path="src/main/api" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/app" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes"/>
+  <classpathentry kind="src" path="src/test/munit" output="target/test-classes" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/test/resources" output="target/test-classes" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="MULE_RUNTIME"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/javax/activation/activation/1.1/activation-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/activemq/activemq-all/5.6.0/activemq-all-5.6.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/code/findbugs/annotations/1.3.9/annotations-1.3.9.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-digester/commons-digester/1.6/commons-digester-1.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/ftpserver/ftplet-api/1.0.6/ftplet-api-1.0.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/ftpserver/ftpserver-core/1.0.6/ftpserver-core-1.0.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/ibm/icu/icu4j-normalizer_transliterator/4.8.1.1/icu4j-normalizer_transliterator-4.8.1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/module/jackson-module-jsonSchema/2.4.4/jackson-module-jsonSchema-2.4.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/fusesource/jansi/jansi/1.8/jansi-1.8.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javatar/javatar/2.5/javatar-2.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/javolution/javolution/5.2.6/javolution-5.2.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-impl/2.1.5/jaxb-impl-2.1.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/github/jnr/jffi/1.2.5/jffi-1.2.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/github/jnr/jffi/1.2.10/jffi-1.2.10-native.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/github/fge/json-schema-core/1.2.5/json-schema-core-1.2.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/github/fge/json-schema-validator/2.2.6/json-schema-validator-2.2.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/4.10/junit-4.10.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/sourceforge/jexcelapi/jxl/2.6.10/jxl-2.6.10.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/googlecode/libphonenumber/libphonenumber/6.2/libphonenumber-6.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.14/log4j-1.2.14.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/mina/mina-core/2.0.4/mina-core-2.0.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/mockito/mockito-all/1.8.2/mockito-all-1.8.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/mulesoft/modules/mule-interceptor-module/3.7.1/mule-interceptor-module-3.7.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/mule/modules/mule-module-apikit/1.7.2/mule-module-apikit-1.7.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/mule/modules/mule-module-cors/2.1/mule-module-cors-2.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/mulesoft/munit/mule-munit-support/3.7.1/mule-munit-support-3.7.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/mulesoft/munit/munit-assert/1.1.0/munit-assert-1.1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/mulesoft/munit/munit-common/1.1.0/munit-common-1.1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/mulesoft/munit/munit-mock/1.1.0/munit-mock-1.1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/mulesoft/munit/munit-runner/1.1.0/munit-runner-1.1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/mysql/mysql-connector-java/5.1.37/mysql-connector-java-5.1.37.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/poi/poi/3.8-beta4/poi-3.8-beta4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/poi/poi-ooxml/3.8-beta4/poi-ooxml-3.8-beta4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/poi/poi-ooxml-schemas/3.8-beta4/poi-ooxml-schemas-3.8-beta4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/raml/raml-parser/0.8.12/raml-parser-0.8.12.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/googlecode/sardine/sardine/248/sardine-248.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/sshd/sshd-core/0.6.0/sshd-core-0.6.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/de/schlichtherle/io/truezip/6.6/truezip-6.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/wsdl4j/wsdl4j/1.6.2/wsdl4j-1.6.2.jar"/>
+</classpath>
